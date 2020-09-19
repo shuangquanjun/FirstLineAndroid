@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".NormalActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="This is a Normal Activity!"/>
+    <Button
+        android:id="@+id/button_start_progress_dialog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Start Progress Dialog"/>
+    <Button
+        android:id="@+id/button_start_alertDialog"
+        android:text="Start AlertDialog!"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+
+</LinearLayout>
