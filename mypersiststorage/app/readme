@@ -1,0 +1,4 @@
+1. use file, /data/data/packagename/files/xxxx
+2. use shared preference /data/data/<packageName>/shared_preference
+3. database, in /data/data/<packageName>/database
+4. dynamic/static request permission, ActivityCompat.check and request
